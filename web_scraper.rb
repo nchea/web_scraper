@@ -68,9 +68,9 @@ end
   puts "iteration ##{counter}"
 end
 
-language.each do |index|
-  puts "language is: #{index}"
-  puts index.class
+language.each do |k, v|
+  puts "language #{k}: #{v}"
+  puts "#{k.class} & #{v.class}"
 end
 
 number_array.each do |counter|
